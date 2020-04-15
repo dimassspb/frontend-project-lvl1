@@ -1,6 +1,2 @@
-import brainEven from './games/even.js';
-
-export default () => {
-  console.log('Welcome to the Brain Games!\n');
-  brainEven();
-};
+const greeting = ('Welcome to the Brain Games!\n');
+console.log(greeting);
