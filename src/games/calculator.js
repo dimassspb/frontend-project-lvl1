@@ -16,7 +16,6 @@ const calculate = (num1, num2, sign) => {
 
 const description = 'What is the result of the expression?.';
 const signs = ['+', '-', '*'];
-
 const getData = () => {
   const randomsignindex = Math.floor(Math.random() * signs.length);
   const randomSign = signs[randomsignindex];
