@@ -26,4 +26,4 @@ const getData = () => {
   const question = `${num1} ${randomSign} ${num2}`;
   return [question, correctAnswer];
 };
-export default () => startGame(description, getdData);
+export default () => startGame(description, getData);
