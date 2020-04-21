@@ -9,11 +9,11 @@ const gcd = (num1, num2) => {
 };
 
 const description = 'Find the greatest common divisor of given numbers.';
-const getAnswerAndQuestion = () => {
-  const randomNum1 = randomnum(0, 101);
-  const randomNum2 = randomnum(0, 101);
+const getData = () => {
+  const randomNum1 = randomnum(0, 11);
+  const randomNum2 = randomnum(0, 11);
   const question = `${randomNum1} ${randomNum2}`;
   const correctAnswer = String(gcd(randomNum1, randomNum2));
   return [question, correctAnswer];
 };
-export default () => startGame(description, getAnswerAndQuestion);
+export default () => startGame(description, getData);
