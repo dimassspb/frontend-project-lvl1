@@ -3,7 +3,7 @@ import readlineSync from 'readline-sync';
 const iterCount = 3;
 const playGame = (description, getData) => {
   const name = readlineSync.question('May I have your name?:');
-  console.log(`Hello ${name} !`);
+  console.log(`Hello, ${name} !`);
   console.log(description);
 
   for (let i = 0; i < iterCount; i += 1) {
