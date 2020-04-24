@@ -1,4 +1,4 @@
-const randomnum = (min, max) => {
+const randomNum = (min, max) => {
   return Math.floor(Math.random() * max) + min;
 };
-export default randomnum;
+export default randomNum;

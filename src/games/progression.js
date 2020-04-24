@@ -1,5 +1,5 @@
 import startGame from '..';
-import randomnum from '../random.js';
+import randomNum from '../random.js';
 
 const getProgression = (firstNum, difference, length) => {
   const arr = [];
@@ -12,12 +12,12 @@ const getProgression = (firstNum, difference, length) => {
 const description = 'What number is missing in the progression?';
 const lengthOfProgression = 10;
 const getData = () => {
-  const num1 = randomnum(0, 11);
-  const difference = randomnum(1, 11);
+  const num1 = randomNum(0, 11);
+  const difference = randomNum(1, 11);
   const question = getProgression(num1, difference, lengthOfProgression);
-  const randomindex = randomnum(0, lengthOfProgression);
-  const correctAnswer = String(question[randomindex]);
-  question[randomindex] = '..';
+  const randomIndex = randomNum(0, lengthOfProgression);
+  const correctAnswer = String(question[randomIndex]);
+  question[randomIndex] = '..';
   return [String(question), correctAnswer];
 };
 export default () => startGame(description, getData);
