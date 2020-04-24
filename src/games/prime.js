@@ -19,4 +19,3 @@ const getData = () => {
   return [question, correctAnswer];
 };
 export default () => startGame(description, getData);
-
