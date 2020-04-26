@@ -1,15 +1,15 @@
 install:
 	npm install
 even:
-	npx babel-node src/bin/brain-even.js
+	npx node src/bin/brain-even.js
 calc:
-	npx babel-node src/bin/brain-calculator.js
+	npx node src/bin/brain-calculator.js
 gcd:
-	npx babel-node src/bin/brain-gcd.js
+	npx node src/bin/brain-gcd.js
 progression:
-	npx babel-node src/bin/brain-progression.js
+	npx node src/bin/brain-progression.js
 prime:
-	npx babel-node src/bin/brain-prime.js
+	npx node src/bin/brain-prime.js
 publish:
 	npm publish --dry-run
 make lint:
