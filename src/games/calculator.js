@@ -1,5 +1,5 @@
-import startGame from '..';
-import randomNum from '../random.js';
+import startGame from '../index.js';
+import random from '../random.js';
 
 const calculate = (num1, num2, sign) => {
   switch (sign) {
@@ -19,8 +19,8 @@ const signs = ['+', '-', '*'];
 const getData = () => {
   const randomSignIndex = Math.floor(Math.random() * signs.length);
   const randomSign = signs[randomSignIndex];
-  const num1 = randomNum(0, 11);
-  const num2 = randomNum(0, 11);
+  const num1 = random(0, 11);
+  const num2 = random(0, 11);
   const correctAnswer = String(calculate(num1, num2, randomSign));
   const question = `${num1} ${randomSign} ${num2}`;
   return [question, correctAnswer];
