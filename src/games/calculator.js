@@ -1,7 +1,7 @@
 import runGame from '../index.js';
 import random from '../random.js';
 
-const calculate = (num1, num2, sign) => {
+const calculate = (sign, num1, num2) => {
   switch (sign) {
     case '+':
       return num1 + num2;
@@ -21,7 +21,7 @@ const getData = () => {
   const randomSign = signs[randomSignIndex];
   const num1 = random(0, 11);
   const num2 = random(0, 11);
-  const correctAnswer = String(calculate(num1, num2, randomSign));
+  const correctAnswer = String(calculate(randomSign, num1, num2));
   const question = `${num1} ${randomSign} ${num2}`;
   return [question, correctAnswer];
 };
