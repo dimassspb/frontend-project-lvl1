@@ -1,4 +1,4 @@
-import startGame from '../index.js';
+import runGame from '../index.js';
 import random from '../random.js';
 
 const getGcd = (num1, num2) => {
@@ -16,4 +16,4 @@ const getData = () => {
   const correctAnswer = String(getGcd(num1, num2));
   return [question, correctAnswer];
 };
-export default () => startGame(description, getData);
+export default () => runGame(description, getData);

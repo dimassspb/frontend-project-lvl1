@@ -1,4 +1,4 @@
-import startGame from '../index.js';
+import runGame from '../index.js';
 import random from '../random.js';
 
 const calculate = (num1, num2, sign) => {
@@ -25,4 +25,4 @@ const getData = () => {
   const question = `${num1} ${randomSign} ${num2}`;
   return [question, correctAnswer];
 };
-export default () => startGame(description, getData);
+export default () => runGame(description, getData);
