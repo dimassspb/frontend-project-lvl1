@@ -8,7 +8,7 @@ const runGame = (description, getData) => {
   console.log(description);
   for (let i = 0; i < roundsCount; i += 1) {
     const [question, correctAnswer] = getData();
-    console.log(`Question:, ${question}`);
+    console.log(`Question: ${question}`);
     const answer = readlineSync.question('Your answer: ');
     if (answer === correctAnswer) {
       console.log('Correct!');
