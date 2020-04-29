@@ -12,9 +12,9 @@ const getProgression = (firstNum, difference, length) => {
 const description = 'What number is missing in the progression?';
 const lengthOfProgression = 10;
 const getData = () => {
-  const num1 = random(0, 11);
+  const firstNum = random(0, 11);
   const difference = random(1, 11);
-  const progression = getProgression(num1, difference, lengthOfProgression);
+  const progression = getProgression(firstNum, difference, lengthOfProgression);
   const randomIndex = random(0, lengthOfProgression);
   const correctAnswer = String(progression[randomIndex]);
   progression[randomIndex] = '..';
