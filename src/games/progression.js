@@ -2,11 +2,11 @@ import runGame from '../index.js';
 import random from '../random.js';
 
 const getProgression = (firstNum, difference, length) => {
-  const numbers = [];
+  const progression = [];
   for (let i = 0; i < length; i += 1) {
-    numbers.push(firstNum + i * difference);
+    progression.push(firstNum + i * difference);
   }
-  return numbers;
+  return progression;
 };
 
 const description = 'What number is missing in the progression?';
