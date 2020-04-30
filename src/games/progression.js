@@ -15,7 +15,7 @@ const getData = () => {
   const firstNum = random(0, 11);
   const difference = random(1, 11);
   const progression = getProgression(firstNum, difference, lengthOfProgression);
-  const randomIndex = random(0, lengthOfProgression - 1);
+  const randomIndex = random(0, lengthOfProgression);
   const correctAnswer = String(progression[randomIndex]);
   progression[randomIndex] = '..';
   const question = String(progression);
