@@ -11,10 +11,10 @@
 ![braingames](https://github.com/dimassspb/frontend-project-lvl1/workflows/braingames/badge.svg)
 INSTALL:
 	npm publish --dry-run
-[![asciicast](https://asciinema.org/a/qKDG8bdHcYWfHXbO2qmyREX01.svg)](https://asciinema.org/a/qKDG8bdHcYWfHXbO2qmyREX01)
+[![asciicast](https://asciinema.org/a/Z75etjsxwUUS4UwpJGDQpHccK.svg)](https://asciinema.org/a/Z75etjsxwUUS4UwpJGDQpHccK)
 BRAIN-CALCULATOR:
 	brain-calculator
-[![asciicast](https://asciinema.org/a/22u4GvAo8tSH3b6raQvhXtLgD.svg)](https://asciinema.org/a/22u4GvAo8tSH3b6raQvhXtLgD)
+[![asciicast](https://asciinema.org/a/S36v7xsBzfc5qoctXxoKrbGEP.svg)](https://asciinema.org/a/S36v7xsBzfc5qoctXxoKrbGEP)
 BRAIN-EVEN:
 	brain-even
 [![asciicast](https://asciinema.org/a/BaLvS4FPOYMijBo9c1Gn9U8Vi.svg)](https://asciinema.org/a/BaLvS4FPOYMijBo9c1Gn9U8Vi)
