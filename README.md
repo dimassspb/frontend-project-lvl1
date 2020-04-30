@@ -13,13 +13,16 @@
 
 
 INSTALL DEPENDENCES:
+	
 	$ make install
 
-lINT CODE:
+LINT CODE:
+	
 	$ make lint
 
 
 SETUP:
+	
 	$ npm publish --dry-run
 
 	$ npm link
