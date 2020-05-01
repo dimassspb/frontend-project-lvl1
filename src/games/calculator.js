@@ -17,10 +17,10 @@ const calculate = (sign, num1, num2) => {
 const description = 'What is the result of the expression?';
 const signs = ['+', '-', '*'];
 const getData = () => {
-  const randomSignIndex = random(0, signs.length);
+  const randomSignIndex = random(0, signs.length - 1);
   const randomSign = signs[randomSignIndex];
-  const num1 = random(0, 11);
-  const num2 = random(0, 11);
+  const num1 = random(0, 10);
+  const num2 = random(0, 10);
   const correctAnswer = String(calculate(randomSign, num1, num2));
   const question = `${num1} ${randomSign} ${num2}`;
   return [question, correctAnswer];

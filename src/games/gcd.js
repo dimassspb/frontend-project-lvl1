@@ -10,8 +10,8 @@ const getGcd = (num1, num2) => {
 
 const description = 'Find the greatest common divisor of given numbers.';
 const getData = () => {
-  const num1 = random(0, 11);
-  const num2 = random(0, 11);
+  const num1 = random(0, 10);
+  const num2 = random(0, 10);
   const question = `${num1} ${num2}`;
   const correctAnswer = String(getGcd(num1, num2));
   return [question, correctAnswer];

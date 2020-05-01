@@ -14,7 +14,7 @@ const isPrime = (num) => {
 };
 const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const getData = () => {
-  const question = random(0, 11);
+  const question = random(0, 10);
   const correctAnswer = isPrime(question) ? 'yes' : 'no';
   return [question, correctAnswer];
 };
